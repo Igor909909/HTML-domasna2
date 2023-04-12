@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERF</title>
+</head>
+<body>
+    <form method="get" action="">
+        <h3>EVENT REGISTRATION FORM</h3>
+        <label for="name">Name</label>
+        <input type="text" name="First name" id="name" placeholder="First Name"/>
+        <input type="text" name="Last name" id="name" placeholder="Last Name"/>
+
+        <br><br>
+        <label for="Company">Company</label>
+        <input type="text" name="Company" id="Company"/>
+
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" />
+
+        <br><br>
+        <label for="tel">Phone</label>
+        <input type="text" name="area code" id="tel" placeholder="Area Code" size="5"/>
+        <input type="text" name="Pnumber" id="tel" placeholder="Phone Number"/>
+
+        <br><br>
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+            <option disabled>Choose option</option>
+            <option value="Concert">Concert</option>
+            <option value="Comedy show">Comedy show</option>
+            <option value="Art exhibit">Art exhibit</option>
+        </select>
+
+        <br><br>
+        <p>Are you an existing customer</p>
+        <input type="radio" name="customer" id="Yes" value="Yes" checked/>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="customer" id="No" value="No"/>
+        <label for="No">No</label>
+
+        <br><br>
+        <input type="submit" value="REGISTER" style="background-color: red;"/>
+
+
+    </form>
+    
+</body>
+</html>
